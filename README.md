@@ -10,5 +10,5 @@
 - [Server](Server.md) - Specification of the server, guides and the docker images running on them
 - [Docker](Docker.md) - Guide on docker: why, what and how
 - [ROS](ROS.md) - Guide on Robot Operating System: why, what and how
-
+- [Terminal](Terminal.md) - Guide on working on the command line in Windows and Linux/Mac.
 
