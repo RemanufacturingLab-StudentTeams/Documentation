@@ -22,4 +22,28 @@ The most popular terminals in windows are:
 
 
 ## Linux/Mac
-On Ubuntu one usually can open the default terminal quickly by pressing `<Ctrl><Alt>T`, most likely the `gnome-terminal` is opened (other terminals are `Terminator`, `Alacritty` and `Urxvt`). A good guide is [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
+On Ubuntu one usually can open the default terminal quickly by pressing `<Ctrl><Alt>T`, most likely the `gnome-terminal` is opened (other terminals are `Terminator`, `Alacritty` and `Urxvt`). A good guide for Ubuntu Linux is [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview). For MAC one may consult [this article on Medium](https://medium.com/@marsmans/learning-to-use-the-terminal-ccd1595250e5).
+
+The actual program that reads and evaluates the commands, so interacts with the Linux/Mac Kernel, is a programm called the *shell*. On most Linux computers this is `bash` (born-again shell), on the Mac this is `zsh` (z-shell), though `zsh` can run on Linux as well. An instructive guide on `bash` is [this course on W3schools](https://www.w3schools.com/bash/), but one may watch a tutorial on youtube as well, or consult a cheat sheet or read a free book [Bash guide for beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) by Machtelt Garrels.
+
+### Working with apt to search and install packages
+On Ubuntu very often one installs (and updates and removes) software packages on the command line. The CLI program being used is `apt`. Usually these commands need system administration rights, and therefore you have to put the keyword `sudo` in front of the command.
+Here you see a few examples of using apt:
+```
+# Update the package list from the (Ubuntu) package repositories
+sudo apt update 
+# Upgrade all pacakges
+sudo apt upgrade
+# Search for a package called opencv
+apt search opencv
+# Search for a package called opencv and pipe (send) the output 
+# to another programm called grep to search lines with the term python3 
+apt search opencv | grep python3
+# install python3-opencv
+sudo apt install python3-opencv
+# remove python3-opencv
+sudo apt remove 
+```
+For a more detailed guide on using `apt` for software package management, read this [Ubuntu server guide on Package Management](https://ubuntu.com/server/docs/how-to/software/package-management/).
+
+### 
