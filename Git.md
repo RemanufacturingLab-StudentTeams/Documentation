@@ -14,7 +14,8 @@ Git keeps track of changes in the text documents (i.e. files) that are put under
 Here, we only give a very brief and limited overview. To learn to work with git and github one has to work through a guide, do not just read, but also evaluate the commands yourself. 
 
 ## Guides for git
-TBD
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Pro Git Book](https://git-scm.com/learn) by Scott Chacon and Ben Straub (free)
 
 ## Guides for github
-TBD
+- [Learng github](https://learn.github.com/)
