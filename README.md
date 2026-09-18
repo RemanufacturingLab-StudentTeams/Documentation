@@ -1,6 +1,6 @@
 # Documentation for the Remanufacturing Lab
 
-# Contents
+## Contents
 - [Cobots](Cobots.md) (Under development)- Specifications, reference to documention and guidelines
 - [Architecture](Architecture.md) (TBD)- General description of all stations and connection and communcation between them
 - [Network](Network.md) (TBD) - Guide on Iotroam (Wifi) and local networks in the lab, as well as OPC-UA, MQTT protocols
