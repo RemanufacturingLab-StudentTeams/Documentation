@@ -13,3 +13,4 @@
 - [Terminal](Terminal.md) (Under development) - Guide on working on the command line in Windows and Linux/Mac.
 - [Git](Git.md) - Introduction to git version control for software and text documents and links to tutorials.
 - [Python](Python.md) (Under development) - Guide on python and common python modules
+- [Sources](Sources.md) - Tips for literature search
