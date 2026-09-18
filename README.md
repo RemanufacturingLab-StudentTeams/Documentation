@@ -11,4 +11,5 @@
 - [Docker](Docker.md) (TBD) - Guide on docker: why, what and how
 - [ROS](ROS.md) (TBD) - Guide on Robot Operating System: why, what and how
 - [Terminal](Terminal.md) (Under development) - Guide on working on the command line in Windows and Linux/Mac.
+- [Git](Git.md) - Introduction to git version control for software and text documents and links to tutorials.
 - [Python](Python.md) (Under development) - Guide on python and common python modules
