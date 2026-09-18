@@ -11,10 +11,13 @@ Git keeps track of changes in the text documents (i.e. files) that are put under
 - `git push` - send the commits to the remote repositories, e.g. on github
 - `git pull` - get the commits from a remote repository, e.g. on github
 
-Here, we only give a very brief and limited overview. To learn to work with git and github one has to work through a guide, do not just read, but also evaluate the commands yourself. 
+One very powerful feature of git is *branching*. You do not need it at start, when you are just getting to work with git, but sooner or later you may use this feature. When developing software, you often have the situation that you have a working version that you want to keep, while you or your team mates also want to develop and test new features. Rather than making copies of files, you make a new branch. There is usally a main (or master) branch with the most recent and stable version of the code. When starting a new branch, you can change the files, while the files in the main branch do not change. You can easily switch between branches and thus working with different versions of the software. If you want to integrate the code of a branch in the main branch, you can do a merge.
+
+This is only a very brief and limited overview. To learn to work with git and github one has to work through a guide, do not just read, but also evaluate the commands yourself!
 
 ## Guides for git
-- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Installing git](https://git-scm.com/install/windows) - Guides for Windows, Linux, Mac; note on Linux and Mac git usually is already installed, but on Windows this is not.
+- [Learn Git Branching](https://learngitbranching.js.org/) - Guided interactive tour along git commands
 - [Pro Git Book](https://git-scm.com/learn) by Scott Chacon and Ben Straub (free)
 
 ## Guides for github
